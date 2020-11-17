@@ -1,5 +1,32 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/1129092.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.body {
+  background-color: rgba(255, 255, 255, 0.692);
+  padding: 25px;
+  width: 500px;
+  border-radius: 5px;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -14,7 +41,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +61,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  color: white;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(75, 122, 221);
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.delete {
+  background-color: rgb(231, 94, 94);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+thead {
+  padding: 10px 10px;
+}
+
+td, th {
+  padding: 5px;
 }
